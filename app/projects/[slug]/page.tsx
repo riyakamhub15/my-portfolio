@@ -43,8 +43,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
   const solution = 'solution' in project ? project.solution as string | undefined : undefined;
   const architecture = 'architecture' in project ? project.architecture as string | undefined : undefined;
   const results = 'results' in project ? project.results as any[] | undefined : undefined;
-  const githubUrl = 'githubUrl' in project ? project.githubUrl as string | undefined : undefined;
-  const githubLink = 'githubLink' in project ? project.githubLink as string | undefined : undefined;
+   const githubLink = 'githubLink' in project ? project.githubLink as string | undefined : undefined;
   const isLiveOnPlayStore = 'isLiveOnPlayStore' in project ? project.isLiveOnPlayStore as boolean | undefined : undefined;
   const playStoreLink = 'playStoreLink' in project ? project.playStoreLink as string | undefined : undefined;
   const isLiveOnAppStore = 'isLiveOnAppStore' in project ? project.isLiveOnAppStore as boolean | undefined : undefined;
