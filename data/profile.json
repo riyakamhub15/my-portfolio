@@ -1,0 +1,339 @@
+{
+  "personalInfo": {
+  "name": "Riya Kamboj",
+  "role": "Full Stack Web Developer",
+  "tagline": "Crafting modern web experiences with the MERN Stack.",
+  "bio": "I'm Riya Kamboj, a Computer Science Engineering student and Full Stack Developer passionate about building modern, responsive, and scalable web applications. I enjoy transforming ideas into real-world solutions using the MERN stack while continuously improving my problem-solving skills through Data Structures and Algorithms. I'm always eager to learn new technologies, collaborate on meaningful projects, and grow as a software engineer.",
+  "email": "kambojriya1504@gmail.com",
+  "phone": "+91 8630574714",
+  "location": "Mohali, Punjab, India",
+  "profileImage": "/profile.jpg",
+  "resumeUrl": "/resume.pdf",
+  "yearsOfExperience": 0,
+  "currentRole": " ",
+  "currentCompany": "",
+  "availability": "open-to-opportunities"
+},
+ "socialLinks": [
+  {
+    "platform": "GitHub",
+    "url": "https://github.com/riyakamhub15",
+    "icon": "github",
+    "username": "riyakamhub15"
+  },
+  {
+    "platform": "LinkedIn",
+    "url": "https://www.linkedin.com/in/riyakamboj04/",
+    "icon": "linkedin",
+    "username": "riyakamboj04"
+  },
+  {
+    "platform": "LeetCode",
+    "url": "https://leetcode.com/u/riyaKamboj15/",
+    "icon": "code",
+    "username": "riyaKamboj15"
+  }
+],
+"skills": [
+ 
+  {
+    "name": "C++",
+    "category": "language",
+    "proficiency": 95
+  },
+{
+    "name": "JavaScript",
+    "category": "language",
+    "proficiency": 85
+  },
+  {
+    "name": "HTML5",
+    "category": "language",
+    "proficiency": 95
+  },
+  {
+    "name": "CSS3",
+    "category": "language",
+    "proficiency": 90
+  },
+{
+    "name": "SQL",
+    "category": "language",
+    "proficiency": 85
+  },
+  {
+    "name": "React.js",
+    "category": "frontend",
+    "proficiency": 90
+  },
+  {
+    "name": "React Router",
+    "category": "frontend",
+    "proficiency": 85
+  },
+  {
+    "name": "Context API",
+    "category": "frontend",
+    "proficiency": 85
+  },
+  {
+    "name": "Tailwind CSS",
+    "category": "frontend",
+    "proficiency": 85
+  },
+  {
+    "name": "REST APIs",
+    "category": "backend",
+    "proficiency": 90
+  },
+   {
+    "name": "Node.js",
+    "category": "backend",
+    "proficiency": 85
+  },
+   {
+    "name": "Express.js",
+    "category": "backend",
+    "proficiency": 80
+  },
+   {
+    "name": "JWT Authentication",
+    "category": "backend",
+    "proficiency": 85
+  },
+   {
+    "name": "CRUD Operations",
+    "category": "backend",
+    "proficiency": 90
+  },
+  {
+    "name": "Middleware",
+    "category": "backend",
+    "proficiency": 85
+  },
+   {
+    "name": "MongoDB",
+    "category": "database",
+    "proficiency": 85
+  },
+  {
+    "name": "Mongoose",
+    "category": "database",
+    "proficiency": 85
+  },
+  {
+    "name": "MySQL",
+    "category": "database",
+    "proficiency": 90
+  },
+  {
+    "name": "Git",
+    "category": "tools",
+    "proficiency": 80
+  },
+  {
+    "name": "GitHub",
+    "category": "tools",
+    "proficiency": 85
+  },
+   {
+    "name": "VS Code",
+    "category": "tools",
+    "proficiency": 95
+  },
+   {
+    "name": "Postman",
+    "category": "tools",
+    "proficiency": 90
+  },
+   {
+    "name": "MongoDB Atlas",
+    "category": "tools",
+    "proficiency": 85
+  },
+   {
+    "name": "Data Structure & Algorithms",
+    "category": "core",
+    "proficiency": 85
+  },
+  {
+    "name": "Object-Oriented Programming(OOP)",
+    "category": "core",
+    "proficiency": 90
+  },
+  {
+    "name": "DBMS",
+    "category": "core",
+    "proficiency": 90
+  },
+  {
+    "name": "Operating Systems",
+    "category": "core",
+    "proficiency": 85
+  },
+  {
+    "name": "Computer Networks",
+    "category": "core",
+    "proficiency": 85
+  }
+ 
+],
+  "education": [
+  {
+    "id": "edu-1",
+    "institution": "Chandigarh University",
+    "degree": "BE",
+    "field": "Computer Science and Engineering",
+    "location": "Mohali, Punjab, India",
+    "startDate": "2023-08",
+    "endDate": "2027-06",
+    "cgpa": "6.92",
+    "description": "Focused on software engineering, web development, data structures and algorithms",
+    "achievements": []
+  }
+],
+
+  "projects": [
+    {
+      "id": "proj-1",
+      "slug": "cyclesync",
+      "name": "CycleSync",
+      "shortDescription": "Menstrual Health & Cycle Tracking Platform",
+      "fullDescription": "A full-stack health-tech platform for menstrual cycle management, integrating symptom tracking, lifestyle analysis, and predictive health insights.",
+      "category": "Web Application",
+      "tags": ["menstrual-cycle", "women-health", "period-tracker"],
+      "technologies": ["React.js", "Node.js", "Express.js", "MongoDB", "JavaScript", "TailwindCSS", "Chart.js", "RST APIs", "JWT Authentication"],
+      "featured": true,
+      "thumbnailImage": "/assets/projects/cyclesync-thumbnail.jpg",
+      "images": ["/assets/projects/cyclesync-thumbnail.jpg"],
+      "liveUrl": "",
+      "githubLink": "https://github.com/riyakamhub15/CycleSync",
+      "isLiveOnPlayStore": false,
+      "playStoreLink": "",
+      "isLiveOnAppStore": false,
+      "appStoreLink": "",
+      "startDate": "2026-04",
+      "status": "completed"
+    },
+    {
+      "id": "proj-2",
+      "slug": "developer portfolio platform",
+      "name": "Developer Portfolio Platform",
+      "shortDescription": "Full-stack MERN application with JWT authentication, project CRUD, and public portfolio",
+      "fullDescription": "A full-stack MERN portfolio platform enabling developers to create, manage, and showcase their professional profiles and projects with secure authentication, responsive design, and a shareable public portfolio.",
+      "category": "Web Application",
+      "tags": ["MERN", "JWT", "TailwindCSS", "REST API"],
+      "technologies": ["React.js", "Node.js", "MongoDB", "TailwindCSS", "Express.js", "JWT"],
+      "featured": true,
+      "thumbnailImage": "/assets/projects/portfolio-platform-thumbnail.jpg",
+      "images": ["/assets/projects/portfolio-platform-thumbnail.jpg"],
+      "liveUrl": "https://developer-portfolio-platform.vercel.app/",
+      "githubLink": "https://github.com/riyakamhub15/developer-portfolio-platform",
+      "isLiveOnPlayStore": false,
+      "playStoreLink": "",
+      "isLiveOnAppStore": false,
+      "appStoreLink": "",
+      "startDate": "2026-06",
+      "status": "completed"
+    },
+    {
+      "id": "proj-3",
+      "slug": "real-time collaborative text editor",
+      "name": "Real-Time Collaborative Text Editor",
+      "shortDescription": "Real-time collaborative code editor with live synchronization",
+      "fullDescription": "A real-time collaborative text editor that enables multiple users to edit documents simultaneously with instant synchronization, secure authentication, and seamless collaboration.",
+      "category": "Dashboard",
+      "tags": ["Real-time", "Collaboration", "Code Editor", "Socket.IO", "MERN Stack"],
+      "technologies": ["React.js", "Node.js", "Express.js", "JWT Authentication", "MongoDB", "JavaScript", "Socket.IO"],
+      "featured": false,
+      "thumbnailImage": "",
+      "images": [""],
+      "githubLink": "",
+      "isLiveOnPlayStore": false,
+      "playStoreLink": "",
+      "isLiveOnAppStore": false,
+      "appStoreLink": "",
+      "startDate": "2025-11",
+      "status": "completed"
+    }
+  ],
+  "certifications": [],
+  "services": [],
+  "testimonials": [],
+  "achievements": [],
+  "codingProfiles": [
+  {
+    "platform": "LeetCode",
+    "username": "riyaKamboj15",
+    "url": "https://leetcode.com/u/riyaKamboj15/"
+  },
+  {
+    "platform": "GitHub",
+    "username": "riyakamhub15",
+    "url": "https://github.com/riyakamhub15"
+  }
+],
+  "github": {
+  "username": "riyakamhub15",
+  "showProfile": true,
+  "showPinnedRepos": true,
+  "showStats": true,
+  "showContributions": true
+},
+  "seo": {
+  "title": "Riya Kamboj | Web Developer",
+  "description": "Computer Science Engineering student passionate about full-stack web development. I build responsive, scalable, and user-centric web applications using the MERN stack while continuously improving my problem-solving skills through Data Structures and Algorithms.",
+  "keywords": [
+    "Web Developer",
+    "Full Stack Developer",
+    "MERN Stack Developer",
+    "Software Engineer",
+    "React Developer",
+    "Node.js Developer",
+    "JavaScript Developer"
+  ],
+  "author": "Riya Kamboj",
+  "siteUrl": "https://riyakamboj.dev",
+  "image": "/og-image.svg",
+  "twitterHandle": "",
+  "locale": "en_US",
+  "type": "profile"
+},
+  "analytics": {},
+  "contactForm": {
+    "enabled": true,
+    "email": "kambojriya1504@gmail.com",
+    "web3FormsAccessKey": "d15b658b-d4ed-49e9-ae9c-4cbfdc7e40b3",
+    "fields": [
+      { "name": "name", "label": "Full Name", "type": "text", "required": true, "placeholder": "Enter your full name" },
+      { "name": "email", "label": "Email Address", "type": "email", "required": true, "placeholder": "your.email@example.com" },
+      { "name": "phone", "label": "Mobile Number", "type": "tel", "required": true, "placeholder": "+91 98765 43210" },
+      { "name": "message", "label": "Your Query", "type": "textarea", "required": true, "placeholder": "How can I help you?" }
+    ],
+    "successMessage": "Thank you for contacting me! I'll get back to you soon.",
+    "errorMessage": "Oops! Something went wrong. Please try again or email me directly."
+  },
+  "theme": {
+    "defaultTheme": "system",
+    "enableThemeSwitcher": true
+  },
+  "siteConfig": {
+    "navigation": [
+      { "label": "Home", "href": "/" },
+      { "label": "Projects", "href": "/projects" },
+      { "label": "Experience", "href": "/experience" },
+      { "label": "Certifications", "href": "/certifications" },
+      { "label": "Contact", "href": "/contact" }
+    ],
+    "footer": {
+      "copyright": "© 2026 Riya Kamboj. All rights reserved.",
+      "links": []
+    },
+    "features": {
+      "showScrollProgress": true,
+      "showBackToTop": true,
+      "showCommandPalette": false,
+      "showBreadcrumbs": false
+    }
+  }
+}
