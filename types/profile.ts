@@ -73,8 +73,7 @@ export interface Project {
   featured: boolean;
   thumbnailImage: string;
   images: string[];
-  githubUrl?: string;
-  githubLink?: string; // Alias for githubUrl
+  githubLink?: string; 
   liveUrl?: string;
   demoVideoUrl?: string;
   isLiveOnPlayStore?: boolean;

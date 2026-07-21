@@ -106,9 +106,9 @@ export default function ProjectPage({ params }: ProjectPageProps) {
 
           {/* Action Buttons */}
           <div className="flex flex-wrap gap-3 mt-8">
-            {(githubLink || githubUrl) && (
+            {githubLink && (
               <a
-                href={(githubLink || githubUrl) as string}
+                href={(githubLink) as string}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 rounded-lg font-medium transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 border-2 border-input bg-background hover:bg-accent hover:text-accent-foreground h-11 px-6"
@@ -293,9 +293,9 @@ export default function ProjectPage({ params }: ProjectPageProps) {
             <section>
               <h3 className="text-xl font-bold mb-4">Links</h3>
               <div className="space-y-2">
-                {githubUrl && (
+                {githubLink && (
                   <a
-                    href={githubUrl}
+                    href={githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
