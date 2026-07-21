@@ -35,7 +35,7 @@ export function ExperienceSection() {
             <div className="absolute left-8 top-0 bottom-0 w-px bg-border hidden sm:block" />
 
             <div className="space-y-12">
-              {experiences.map((exp, index) => (
+              {experiences.map((exp: any, index: number) => (
                 <motion.div
                   key={exp.id}
                   variants={ANIMATION_VARIANTS.slideUp}
@@ -76,7 +76,7 @@ export function ExperienceSection() {
                       <div className="space-y-2 mb-4">
                         <h4 className="font-semibold text-sm">Key Achievements:</h4>
                         <ul className="list-disc list-inside space-y-1 text-sm text-muted-foreground">
-                          {exp.achievements.map((achievement, i) => (
+                          {exp.achievements.map((achievement: string, i: number) => (
                             <li key={i}>{achievement}</li>
                           ))}
                         </ul>
@@ -85,7 +85,7 @@ export function ExperienceSection() {
 
                     {exp.technologies && exp.technologies.length > 0 && (
                       <div className="flex flex-wrap gap-2">
-                        {exp.technologies.map((tech) => (
+                        {exp.technologies.map((tech: string) => (
                           <Badge key={tech} variant="secondary">
                             {tech}
                           </Badge>

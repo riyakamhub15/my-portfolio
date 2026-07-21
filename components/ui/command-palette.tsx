@@ -75,8 +75,9 @@ export function CommandPalette({ isOpen, onClose }: CommandPaletteProps) {
     });
 
     // Experience
-    const experience = getExperiences();
-    experience.forEach((exp) => {
+   const experience = getExperiences();
+
+experience.forEach((exp: any) => {
       items.push({
         id: `exp-${exp.id}`,
         title: `${exp.role} at ${exp.company}`,
